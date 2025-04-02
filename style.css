@@ -1,0 +1,110 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: white;
+}
+.flex {
+  padding-top: 20px;
+  width:90%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-between;
+  
+}
+.btn-container button {
+  padding: 10px 20px;
+  border: 1px solid hsl(322, 100%, 66%);
+  border-radius: 20px;
+}
+.text-center {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0px;
+  margin-top: 60px;
+}
+.text-center button{
+  padding: 10px 30px;
+  border: none;
+  background-color:  hsl(321, 100%, 78%);
+  color: aliceblue;
+  border-radius: 20px;
+}
+button {
+  font-size: 16px;
+}
+.text-center p {
+  width: 500px;
+  text-align: center;
+  line-height: 1.2;
+  padding-bottom: 10px;
+}
+
+.text-center h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.screen-mockup {
+  margin-top: 90px;
+  width: 100%;
+  height: 100vh;
+  background: url(images/screen-mockups.svg);
+  /* background-size: cover; */
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 24px;
+  margin: auto;
+}
+.flex-cta {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+}
+.flex-cta h1, p {
+  padding: 5 px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.flex-cta h1{
+  font-size: 4rem;
+  color: #aaa;
+  font-weight: 600;
+}
+.next-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  height: 120vh;
+  background-image: url(images/bg-section-bottom-desktop-2.svg);
+  /* background-size: cover; */
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 60px;
+  gap: 25px;
+}
+.text-work {
+  width: 50%;
+
+}
+.text-work p {
+  width: 300px;
+  line-height: 1.5; 
+  margin-top: 10px;
+}
+.asset-illustration {
+  background: url(images/illustration-grow-together.svg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
